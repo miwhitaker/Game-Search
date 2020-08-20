@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+}
+
+header {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: #63768D;
+    border: black solid;
+}
+
+body {
+    background-color: #B8F3FF;
+    font-size: 1.5rem;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.systemsmenu, .genresmenu, .featuresmenu {
+    width: 25%;
+    padding: 1rem;
+    border: 2px black solid;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button1 {
+    color: yellow;
+    height: 5rem;
+    width: 5rem;
+    padding: 5rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
