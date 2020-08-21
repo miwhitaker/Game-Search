@@ -11,6 +11,8 @@ header {
 }
 
 body {
+    /*background-image: url(images/games2.jpg); ((want to use, but doesn't look right on some pages
+    ->still a work in progress, so I placed comment tags around it for now*/
     background-color: #B8F3FF;
     font-size: 1.5rem;
 }
@@ -57,11 +59,17 @@ h2 {
 }
 
 .features, .systems, .other {
-    font-size: 1rem;
+    font-size: 2rem;
     width: 30%;
     padding: 1rem;
     border: 2px black solid;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+footer {
+    font-weight: 700;
+    padding: 4rem;
+    text-align: center;
 }
