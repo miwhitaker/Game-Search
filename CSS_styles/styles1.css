@@ -11,8 +11,7 @@ header {
 }
 
 body {
-    /*background-image: url(images/games2.jpg); ((want to use, but doesn't look right on some pages
-    ->still a work in progress, so I placed comment tags around it for now*/
+    background-image: url(../images/games2.jpg);
     background-color: #B8F3FF;
     font-size: 1.5rem;
 }
