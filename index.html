@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Games and Stuff</title>
-        <link rel="stylesheet" href="CSS_styles/styles1.css">
+        <link rel="stylesheet" href="CSS_styles/styles1.css"/>
     </head>
     <body>
         <header>
@@ -12,15 +12,21 @@
             Find your next gaming obsession
         </header>
         
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="xb_all.html">Xbox One Games</a>
+            <a href="ps4_all.html">PS4 Games</a>
+            <a href="switch_all.html">Switch Games</a>
+        </nav>
+
         <form>
             <main>
                 <section class="systemsmenu">
                     <h3>Which system?</h3>
-                    <select>
+                    <select required="required">
                         <option value="Xbox One">Xbox One</option>
                         <option value="PS4">PS4</option>
                         <option value="Switch">Switch</option>
-                        <option value="I don't care">I don't care</option>
                     </select>
                 </section>
 
@@ -28,7 +34,7 @@
                     <h3>What genre?</h3>
                     <select>
                         <option value="Sports">Sports</option>
-                        <option value="Shooters">Shooters</option>
+                        <option value="Racing">Shooters</option>
                         <option value="I don't care">I don't care</option>
                     </select>
                 </section>
@@ -36,10 +42,10 @@
                 <section class="featuresmenu">
                     <h3>What features do you want?</h3>
                     <select>
-                        <option value="Single Player">Single Player</option>
-                        <option value="Two players">Single Player</option>
-                        <option value="Four Players">Single Player</option>
-                        <option value="2P Online co-op">2P Online co-op</option>
+                        <option value="Single player">Single Player</option>
+                        <option value="2 players split screen">2 players split screen</option>
+                        <option value="2 players online co-op">2 player online co-op</option>
+                        <option value="2 players online versus">2 players online co-op</option>
                         <option value="I don't care">I don't care</option>
                     </select>
                 </section>
