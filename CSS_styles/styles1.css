@@ -6,8 +6,11 @@ header {
     font-size: 2.4rem;
     text-align: center;
     font-weight: 700;
-    background-color: #63768D;
+    background-image: linear-gradient( #020801, #0b7008);
     border: black solid;
+    color: white;
+    padding-bottom: 2rem;
+    font-family: "orbitron";
 }
 
 body {
