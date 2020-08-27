@@ -13,6 +13,17 @@ header {
     font-family: "orbitron";
 }
 
+nav {
+    background-color: black;
+    padding: 1.6rem;
+}
+
+.navlist {
+    display: inline;
+    margin: 0;
+    padding: 2rem 1.5rem;
+}
+
 body {
     background-image: url(../images/games2.jpg);
     background-color: #B8F3FF;
@@ -38,26 +49,21 @@ main {
     font-size: 2rem;
     background-color: red;
     color: yellow;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 3rem 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     border: no border;
-    box-shadow: 4px 4px 2px gray;
-}
-
-nav {
-    padding: 2rem;
+    box-shadow: 4px 4px 2px rgb(63, 25, 25);
+    border-radius: 20px;
 }
 
 h2 {
     font-weight: 700;
     text-decoration: underline;
+    padding: 2rem;
 }
 
 .features, .systems, .other {
@@ -68,10 +74,23 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    background-color: rgba(211,211,211,0.85);
+    color: rgb(12, 12, 92);
 }
 
 footer {
     font-weight: 700;
     padding: 4rem;
     text-align: center;
+}
+
+ol {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+}
+
+article {
+    background-color: rgba(211,211,211,0.85);
+    color: rgb(12, 12, 92);
+    padding: 3rem;
 }
