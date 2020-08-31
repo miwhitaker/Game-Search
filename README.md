@@ -1,13 +1,8 @@
 # Game-Search
-This is a website allowing a user to search for games by specific systems and gameplay features.
 
-It is easy to search online for information, pricing, etc. for a game for whatever system you own,
-but I have not found a website allowing one to find a game that has specific gameplay features. For
-example, you want to find new games that support online co-op play with a friend who lives out of
-state. The only way I've seen to do this is to look through lists of games and research each one
-individually to find out if they support online co-op play, which takes a considerable amount of 
-time to do. This website allows the user to specify individual gameplay features up front, then
-research only those games to save time.
+Created by: Michael Whitaker
+
+This is a website allowing a user to search for games by specific systems and gameplay features. The homepage (index.html) contains three dropdown menus to select the game, genre and specific features followed by a submit button. Next next screen filters the results based on input selections and contains links to info about each game. Clicking on an individual link sends you to an information page about each game.
 
 User stories:
 
@@ -19,3 +14,9 @@ User stories:
     
 3.) AS A gamer developer, I WANT TO see a website that advertises the games I created 
     SO THAT I can inform games what products we have created.
+
+Technologies used:
+HTML, CSS, and JavaScript.
+
+Ways to improve:
+The list of games is quite limited right now, a larger library is needed before this app is all that useful. It would also be better if the individual game screen was a static display and it sent queries to a database to pull in individual game information. That would reduce load time and vastly increase the number of games that I could display. At this time, I need to learn more languages to do that effectively.

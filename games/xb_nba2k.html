@@ -3,21 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Games and Stuff</title>
+        <title>Game Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+            crossorigin="anonymous">
         <link rel="stylesheet" href="../CSS_styles/styles1.css">
     </head>
     <body>
         <header>
-            <h1>Games and Stuff</h1>
+            <h1>Game Search</h1>
             Find your next gaming obsession
         </header>
         
-        <nav>
-            <a class= "navlist" href="../index.html">Home</a>
-            <a class= "navlist" href="../xb_all.html">Xbox One Games</a>
-            <a class= "navlist" href="../ps4_all.html">PS4 Games</a>
-            <a class= "navlist" href="../switch_all.html">Switch Games</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../xb_all.html">Xbox One Games</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../ps4_all.html">PS4 Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../switch_all.html">Switch Games</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         
         <h2>NBA 2k Playgrounds 2</h2>
         <main>
@@ -33,8 +52,8 @@
             <div class="systems">
                 <h3>Systems: </h3>
                 <ul>
+                    <li>Xbox One</li>
                     <li>PS4</li>
-                    <li>XBox One</li>
                     <li>Switch</li>
                 </ul>
             </div>
@@ -49,7 +68,7 @@
             </div>
         </main>
         <article>
-            <section>
+            <section class="content">
                 <h4>BALL WITHOUT LIMITS</h4>
                 NBA arcade action is back with NBA 2K Playgrounds 2! The sequel to the original smash hit 
                 takes street balling to the next level with a massive roster of current and retired NBA 
@@ -58,7 +77,7 @@
                 to jam, and Ball Without Limits!
             </section>
             
-            <section>
+            <section class="content">
                 <h4>EXCITING GAME MODES</h4>
                 Take street balling to the next level with a variety of exciting features, including new 
                 Season and Playgrounds Championship modes! Play 2-on-2 locally with friends, four-player 
@@ -66,14 +85,14 @@
                 own playgrounds in Court Editor mode with tons of customization options available!
             </section>
                 
-            <section>
+            <section class="content">
                 <h4>EXPANDED ROSTER</h4>
                 Collect over 450 NBA players, from all-time greats Michael Jordan, Kobe Bryant & Dr. J, 
                 to current stars Karl-Anthony Towns, Jayson Tatum & Ben Simmons. Featuring new player 
                 models and signature player animations.
             </section>
             
-            <section>
+            <section class="content">
                 <h4>ALL-NEW PLAYGROUNDS</h4>
                 Flash your moves around the world on 17 all-new playground courts. Hit jumpers beachside 
                 in the California sun, prove your game in outer space in the Mars base or head down under 
@@ -86,5 +105,8 @@
             their website at the following link: 
             <a href="https://www.2k.com/en-US/game/nba-2k-playgrounds-2/">NBA 2k Playgrounds 2 home</a>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>

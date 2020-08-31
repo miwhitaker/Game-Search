@@ -18,15 +18,11 @@ header {
     font-family: "orbitron";
 }
 
-nav {
-    background-color: black;
-    padding: 1.6rem;
-}
-
-.navlist {
-    display: inline;
-    margin: 0;
-    padding: 2rem 1.5rem;
+header h1 {
+    font-size: 4.4rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 3rem;
 }
 
 body {
@@ -79,14 +75,18 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    background-color: rgba(211,211,211,0.85);
+    background-color: rgba(211,211,211,0.9);
     color: rgb(12, 12, 92);
     display: inline;
 }
 
+.content {
+    margin-bottom: 3rem;
+}
+
 footer {
     font-weight: 700;
-    padding: 4rem;
+    padding: 2.5rem;
     text-align: center;
     background-color:  rgba(211,211,211,0.85);
 }
@@ -100,4 +100,23 @@ article {
     background-color: rgba(211,211,211,0.85);
     color: rgb(12, 12, 92);
     padding: 3rem;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 250px 250px; 
+    padding: 1.5rem;
+}
+
+.signup {
+    margin-top: 3rem;
+    text-align: left;
+    width: 25%;
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+#namefield, #emailfield {
+    display: flex;
+    justify-content: left;
 }
