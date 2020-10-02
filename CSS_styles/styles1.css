@@ -119,3 +119,9 @@ article {
     display: flex;
     justify-content: left;
 }
+
+@media screen and (min-width: 800px) {
+    .systemsmenu, .genresmenu, .featuresmenu {
+        width: 25%;
+    }
+}
